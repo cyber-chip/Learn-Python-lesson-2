@@ -10,3 +10,6 @@ with open('export.csv', 'w', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=['name','age','job'])
     for line in lines:
         writer.writerow(line)
+
+
+        
